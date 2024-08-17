@@ -46,6 +46,11 @@ function Grid({ numberOfCards }) {
     return (
         <div className="grid-wrapper">
             {
+                <>
+                    <h1 className="title">Tic-Tac-Toe</h1>
+                </>
+            }
+            {
                 winner && (
                     <>
                         <h1 className="turn-highlight">Winner is {winner}</h1>

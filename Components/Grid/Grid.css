@@ -32,3 +32,15 @@
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
 }
+
+.title {
+    color:white;
+    font-weight: bolder;
+    border:2px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
